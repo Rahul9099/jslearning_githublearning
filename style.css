@@ -114,6 +114,7 @@ a:visited {
 }
 
 .form {
+  
   background-color: var(--color-dark--2);
   border-radius: 5px;
   padding: 1.5rem 2.75rem;
@@ -168,7 +169,9 @@ a:visited {
 }
 
 .form__btn {
-  display: none;
+
+  max-width: 30px;
+  align-items: center;
 }
 
 .copyright {
